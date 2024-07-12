@@ -13,11 +13,11 @@ from bs4 import BeautifulSoup
 from signal import signal, SIGINT
 from aiofiles.os import path as aiopath, remove as aioremove
 from aiofiles import open as aiopen
-from pyrogram import idle
-from pyrogram.enums import ChatMemberStatus, ChatType
-from pyrogram.handlers import MessageHandler, CallbackQueryHandler
-from pyrogram.filters import command, private, regex
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from hydrogram import idle
+from hydrogram.enums import ChatMemberStatus, ChatType
+from hydrogram.handlers import MessageHandler, CallbackQueryHandler
+from hydrogram.filters import command, private, regex
+from hydrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from bot import bot, user, bot_name, config_dict, user_data, botStartTime, LOGGER, Interval, DATABASE_URL, QbInterval, INCOMPLETE_TASK_NOTIFIER, scheduler
 from bot.version import get_version
