@@ -30,7 +30,7 @@ psutil
 pybase64
 pycountry
 pymongo
-pyrogram
+hydrogram
 python-dotenv
 python-magic
 qbittorrent-api
